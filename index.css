@@ -91,6 +91,81 @@ body {
 }
 
 .banner-one-button:hover {
-  opacity: 0.95;
+  opacity: 0.85;
   transform: translateY(-2px);
+}
+.banner-two-content{
+    display: flex;
+}
+.why-web {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.why-subtitle {
+  color: #5f6f81;
+  font-size: 20px;
+  margin: 0 auto 40px auto;
+}
+
+.banner-two {
+  background-color: #f7faff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  flex-wrap: wrap;
+}
+
+.banner-two-left {
+  max-width: 480px;
+  text-align: left;
+}
+
+.banner-two-h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #2e2e2e;
+  margin-bottom: 12px;
+}
+
+.banner-two-p {
+  font-size: 14px;
+  color: #5f6f81;
+  margin-bottom: 24px;
+}
+
+.banner-two-button {
+  background: linear-gradient(to right, #ffce55, #fcb045);
+  color: #333;
+  border: none;
+  padding: 20px 35px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-two-button:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.banner-two-right img {
+  width: 100%;
+  max-width: 500px;
 }
